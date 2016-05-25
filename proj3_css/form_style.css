@@ -1,0 +1,125 @@
+	
+* {
+	margin: 0px; padding: 0px;font-family:Calibri;
+} 
+
+#banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #EEF;
+    background-color: #2B2B2B;
+    height: 110px;
+    width:100%;
+    min-width:1140px;
+    }  
+
+#container{
+min-width: 1140px;
+position: relative;
+}
+
+fieldset {
+width: 930px;
+display: block;   
+border: 3px solid #6E6568;
+border-radius: 5px; 
+background-color: #ffffff;
+padding: 20px 10px 20px 10px;
+margin-left: auto;
+margin-right: auto; 
+margin-bottom: 15px;
+margin-top: 15px;
+}   
+
+legend {
+border: 2px outset #6E6568;
+border-radius: 5px;
+background-color: white;
+padding: 5px 10px 5px 10px;
+}
+
+h1 {
+padding: 20px 0 0 0;
+text-align: center;
+}
+
+
+#message, #shipping_message, #payment_message{
+color: red;
+text-align:center;
+font-style: italic;
+padding-bottom: 3%;
+height: 2px;
+font-size: 120%;
+
+}
+
+#errorMessage{
+font-size: 20px;
+padding-left: 70px;
+color: #ff0000;
+font-style: italic;
+}
+
+ul.inlineobjects li{
+display: inline-block;
+}
+
+.title { 
+float: left;
+width: 200px;
+text-align: left;
+clear: left;
+margin-right: 30px;     
+}
+
+label.listitem{
+display: block;
+text-align: center;
+}
+
+#card{
+height: 10%;
+width: 20%;
+}
+
+#checkboxCenter{
+margin-left:230px;
+margin-bottom:20px;
+}
+
+.boldCheckbox{
+font-weight: bold;
+}
+
+#button {
+text-align: center;
+padding-top: 25px;
+margin-bottom:80px;
+} 
+
+.formbutton {
+background-color: #663300;
+padding: 10px 10px 10px 10px;
+margin-right: 10px;
+font-size: 100%;
+color: #ffffff;
+width: 8%;
+}
+
+#addressDiv{
+text-align: center;
+}
+
+div #header{
+display: inline-block;
+}
+
+span.astric{
+color: red;
+}
+
+.top{
+margin-top:150px;
+}
